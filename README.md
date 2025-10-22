@@ -1,12 +1,13 @@
 # ChatExtract
 
-Extract chat sessions from OpenAI data exports by date.
+Extract chat sessions from OpenAI data exports by date and optionally by keyword.
 
 ## Overview
 
 ChatExtract is a command-line tool that helps you:
 1. View all unique dates with conversation counts from your ChatGPT export
-2. Extract all conversations from a specific date to organized folders with both JSON and HTML files
+2. Extract conversations from a specific date, optionally filtered by keyword in the title
+3. Generate both JSON and human-readable HTML outputs with markdown rendering
 
 ## Installation
 
